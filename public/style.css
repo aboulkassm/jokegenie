@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Karla", sans-serif;
+    margin: 0;
+    background-color: #91bbfe;
+  }
+  
+  main {
+    padding: 36px;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    height: 65px;
+    background: linear-gradient(90deg, #1b3954 1.18%, #ff7256 100%);
+    color: white;
+    padding: 20px;
+  }
+  
+  .header--image {
+    height: 100%;
+    margin-right: 6px;
+    border-radius: 5px;
+  }
+  
+  .header--title {
+    font-size: 1.25rem;
+    margin-right: auto;
+  }
+  
+  .header--project {
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+  
+  .form {
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 17px;
+    margin-bottom: 17px;
+  }
+  
+  .form--input {
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+    text-indent: 5px;
+  }
+  
+  .form--button {
+    grid-column: 1 / -1;
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+    background: linear-gradient(90.41deg, #1b3954 1.14%, #ff7256 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(50, 50, 93, 0.11), 0px 1px 3px rgba(0, 0, 0, 0.08);
+  }
+  
+  .meme {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+  }
+  
+  .meme--image {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 3px;
+  }
+  
+  .meme--text {
+    font-size: 5em;
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    font-family: impact, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+  }
+  
+  .meme--text.top {
+    top: 10%;
+  }
+  
+  .meme--text.bottom {
+    bottom: 20%; 
+  }
+  
